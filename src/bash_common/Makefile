@@ -1,7 +1,7 @@
 #Compiler
-CC = arm-linux-gnueabihf-gcc
-AR = arm-linux-gnueabihf-ar
-STRIP = arm-linux-gnueabihf-strip
+CC = gcc
+AR = ar
+STRIP = strip
 
 TARGET =libbash_common.a
 OBJECT =bash_common.o

@@ -1,7 +1,7 @@
 #Compiler
-CC = arm-linux-gnueabihf-gcc
-AR = arm-linux-gnueabihf-ar
-STRIP = arm-linux-gnueabihf-strip
+CC = gcc
+AR = ar
+STRIP = strip
 
 TARGET =libnetwork_common.a
 OBJECT =network_common.o
